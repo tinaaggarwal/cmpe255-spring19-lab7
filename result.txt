@@ -1,0 +1,32 @@
+Confusion Matrix of Polynomial Kernel
+[[141   4]
+ [  0 130]]
+Classification Report of Polynomial Kernel
+             precision    recall  f1-score   support
+
+          0       1.00      0.97      0.99       145
+          1       0.97      1.00      0.98       130
+
+avg / total       0.99      0.99      0.99       275
+
+Confusion Matrix of Gaussian Kernel
+[[145   0]
+ [  0 130]]
+Classification Report of Gaussian Kernel
+             precision    recall  f1-score   support
+
+          0       1.00      1.00      1.00       145
+          1       1.00      1.00      1.00       130
+
+avg / total       1.00      1.00      1.00       275
+
+Confusion Matrix of Sigmoid Kernel
+[[100  45]
+ [ 64  66]]
+Classification Report of Sigmoid Kernel
+             precision    recall  f1-score   support
+
+          0       0.61      0.69      0.65       145
+          1       0.59      0.51      0.55       130
+
+avg / total       0.60      0.60      0.60       275
